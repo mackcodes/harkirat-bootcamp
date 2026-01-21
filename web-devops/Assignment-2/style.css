@@ -1,0 +1,33 @@
+html, body{                  /*margin and padding is reset to 0 bcoz nowadays browsers have a default margin/padding set on body or sometimes html therefore html and body is grouped and also margin as well as padding is reset */
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-div{
+    display: flex;
+}
+.main-team{
+    flex: 1;
+    color: white;
+    background-color: #1C1C1C;
+    height: 100vh;                                      /*takes full vertical height of a div(100 means 100 percent)*/
+    padding: 56px 0px 0px 54px ;
+}
+.main-sales{
+    flex: 1;
+}
+
+.heading{
+    font-size: 50px;
+    padding: 52px 0px 16px 0px;
+    font-weight: bold;
+}
+.subheading{
+    display: flex;
+    padding: 8px 0px 8px 0px;
+    font-size: larger;
+}
+
+.icon{
+    padding-right: 8px;
+}
